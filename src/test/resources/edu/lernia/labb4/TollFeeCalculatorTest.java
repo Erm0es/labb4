@@ -43,6 +43,9 @@ public class TollFeeCalculatorTest {
       assertEquals(true, TollFeeCalculator.isTollFreeDate(date[2]));
     }
 
+    //test för att max fee är 60 
+    
+
     @Test
     void testMain() {
 
